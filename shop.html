@@ -49,15 +49,69 @@
           </div>
           <h2>Сетка:</h2>
           <div class="choose-grid">
+            <input type="radio" checked="checked" name="choose-grid" id="adaptive">
             <label for="adaptive">Адаптивная</label>
-            <input type="radio" name="adaptive" id="adaptive">
+            <input type="radio" name="choose-grid" id="fixed">
             <label for="fixed">Фиксированная</label>
-            <input type="radio" name="fixed" id="fixed">
+            <input type="radio" name="choose-grid" id="flexible">
             <label for="flexible">Резиновая</label>
-            <input type="radio" name="flexible" id="flexible">
           </div>
+          <h2>Особенности:</h2>
+          <div class="features">
+            <input type="checkbox" name="slider" id="slider" checked>
+            <label for="slider">Слайдер</label>
+            <input type="checkbox" name="block-advantage" id="block-advantage">
+            <label for="block-advantage">Блок преимуществ</label>
+            <input type="checkbox" name="news" id="news">
+            <label for="news">Новости</label>
+            <input type="checkbox" name="gallery" id="gallery">
+            <label for="gallery">Галерея</label>
+            <input type="checkbox" name="cart" id="cart">
+            <label for="cart">Корзина</label>
+          </div>
+          <a class="btn btn-show" href="#">Показать</a>
         </form>
       </aside>
+      <section class="shop-mockups">
+        <div class="shop-sort">
+          <div class="shop-sort-type">
+            <span class="shop-sort-title">Сортировать:</span>
+            <ul>
+              <li>
+                <a href="#">По цене</a>
+              </li>
+              <li>
+                <a href="#">По типу</a>
+              </li>
+              <li>
+                <a href="#">По рейтингу</a>
+              </li>
+            </ul>
+          </div>
+          <div class="shop-sort-rating">
+            <a class="icon-up-dir" href="#"></a>
+            <a class="icon-down-dir" href="#"></a>
+          </div>
+        </div>
+        <div class="features-item">
+          <img src="img/catalog-image-border.png" width="240" height="30" alt="Верхняя рамка">
+          <div class="image-mockup">
+            <div class="features-item-hover">
+              <h2>Aviator</h2>
+              <p>Одностраничный макет <br> с авторским дизайном</p>
+              <a class="btn btn-price" href="#">8000 Р.</a>
+            </div>
+          </div>
+        </div>
+        <div class="pagination">
+          <ul>
+            <li><a class="btn btn-pagination" href="#">1</a></li>
+            <li><a class="btn btn-pagination" href="#">2</a></li>
+            <li><a class="btn btn-pagination" href="#">3</a></li>
+            <li><a class="btn btn-pagination" href="#">Следующая</a></li>
+          </ul>
+        </div>
+      </section>
       <section class="contacts-map">
         <div class="contact-us">
           <h3>NЁRDS design studio</h3>

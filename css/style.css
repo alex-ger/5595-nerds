@@ -96,3 +96,22 @@ ul {
 #btn-3:checked ~ .slider-inner .slider-slides {
   transform: translate(-1790px);
 }
+.image-mockup {
+  position: relative;
+
+  width: 240px;
+  height: 240px;
+
+  background: url("../img/aviator.jpg") no-repeat;
+  background-size: 100%;
+}
+.features-item-hover {
+  position: absolute;
+  top: 8%;
+  left: 8%;
+
+  width: 200px;
+  height: 200px;
+
+  background-color: #ffffff;
+}
