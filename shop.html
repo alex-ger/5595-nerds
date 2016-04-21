@@ -3,9 +3,78 @@
   <head>
     <meta charset="utf-8">
     <title>Нёрдс - каталог</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-  	  
+    <div class="container">
+      <header class="main-header">
+        <div class="index-logo">
+          <a href="index.html">
+            <img src="img/logo.png" width="139" height="56" alt="Нёрдс">
+          </a>
+        </div>
+        <nav class="main-navigation">
+          <ul>
+            <li>
+              <a href="#">Cтудия</a>
+            </li>
+            <li>
+              <a href="#">Клиенты</a>
+            </li>
+            <li>
+              <a href="shop.html">Магазин</a>
+            </li>
+            <li>
+              <a href="hotels.html">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="cart-block">
+          <a class="cart" href="#">Корзина</a>
+        </div>
+      </header>
+      <section class="welcome-shop">
+        <h1>Добро пожаловать в магазин <br> готовых макетов</h1>
+      </section>
+      <aside class="filtres">
+        <form class="filtres-form" action="https://echo.htmlacademy.ru" method="post">
+          <h2>Стоимость:</h2>
+          <div class="range">
+            <input min="0" max="25000" type="range">
+          </div>
+          <div class="range-count">
+            <div class="range-zero">от 0</div>
+            <div class="range-max">до 15000</div>
+          </div>
+          <h2>Сетка:</h2>
+          <div class="choose-grid">
+            <label for="adaptive">Адаптивная</label>
+            <input type="radio" name="adaptive" id="adaptive">
+            <label for="fixed">Фиксированная</label>
+            <input type="radio" name="fixed" id="fixed">
+            <label for="flexible">Резиновая</label>
+            <input type="radio" name="flexible" id="flexible">
+          </div>
+        </form>
+      </aside>
+      <section class="contacts-map">
+        <div class="contact-us">
+          <h3>NЁRDS design studio</h3>
+          <p>191186, Санкт-Петербург, <br> ул. Б. Конюшенная, д. 19/8 <br><br> тел. +7 (812) 275-75-75</p>
+        </div>
+      </section>
+      <footer class="main-footer">
+        <div class="footer-social">
+          <a class="social social-vk" href="#" target="_blank" title="Вконтакте">В</a>
+          <a class="social social-facebook" href="#" target="_blank" title="Фейсбук">Ф</a>
+          <a class="social social-instagram" href="#" target="_blank" title="Инстаграм">И</a>
+        </div>
+        <div class="call-friendship">
+          <h1>Давайте дружить, это выгодно!</h1>
+          <p>Скидка 10% для друзей из социальных сетей.</p>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
