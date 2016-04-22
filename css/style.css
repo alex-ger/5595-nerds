@@ -102,16 +102,44 @@ ul {
   width: 240px;
   height: 240px;
 
-  background: url("../img/aviator.jpg") no-repeat;
+  background-repeat: no-repeat;
   background-size: 100%;
+  border-top: 30px solid #f1f1f1;
+  border-image: url("../img/catalog-image-border.png") 30 0 0 0;
+}
+.image-mockup-aviator {
+  background-image: url("../img/aviator.jpg");
+}
+.image-mockup-sunset {
+  background-image: url("../img/sunset.jpg");
+}
+.image-mockup-forte {
+  background-image: url("../img/forte.jpg");
+}
+.image-mockup-modern {
+  background-image: url("../img/modern-organic-thai.jpg");
+}
+.image-mockup-avenue {
+  background-image: url("../img/avenue.jpg");
+}
+.image-mockup-dovetail {
+  background-image: url("../img/dovetail.jpg");
+}
+.features-item {
+  width: 240px;
 }
 .features-item-hover {
   position: absolute;
   top: 8%;
   left: 8%;
 
+  display: none;
   width: 200px;
   height: 200px;
 
   background-color: #ffffff;
+
+}
+.features-item:hover .features-item-hover {
+  display: block;
 }
