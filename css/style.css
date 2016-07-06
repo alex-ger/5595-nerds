@@ -62,7 +62,6 @@
 } /* "\1f4f7" */
 
 body {
-  font-weight: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 22px;
@@ -78,7 +77,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-weight: bold;
+  font-weight: 500;
   line-height: 36px;
   color: #000000;
 }
@@ -144,18 +143,55 @@ ul {
   margin-left: 49px;
 }
 
+.mini-catalog {
+  min-height: 425px;
+  padding-top: 80px;
+  padding-bottom: 88px;
 
+  border-bottom: 2px solid #eeeeee;
+}
 .mini-catalog-item {
   width: 290px;
   margin: 0;
   padding: 0;
 }
+.mini-catalog-item:nth-child(2) {
+  padding-left: 26px;
+}
+.mini-catalog-item:nth-child(3) {
+  padding-left: 51px;
+}
 .mini-catalog-title h3 {
+  margin-top: 17px;
+  margin-bottom: 0;
+
+  font-size: 18px;
   line-height: 30px;
   text-transform: uppercase;
 }
+.mini-catalog-title p {
+  margin-bottom: 32px;
+
+  font-size: 15px;
+  line-height: 22px;
+}
 .about-studio-info {
   width: 600px;
+}
+.about-studio-info h1 {
+  margin-top: 70px;
+  margin-bottom: 19px;
+
+  font-size: 36px;
+}
+.about-studio-info p{
+    margin-bottom: 44px;
+}
+.about-studio-info h3{
+    text-transform: uppercase;
+  font-size: 16px;
+  line-height: 22px;
+    margin-bottom: 22px;
 }
 .about-studio-work {
   width: 270px;
@@ -178,8 +214,6 @@ ul {
   margin-bottom: 34px;
 }
 .btn {
-  padding: 12px 71px;
-
   font-weight: 500;
   font-size: 12px;
   line-height: 18px;
@@ -189,14 +223,29 @@ ul {
   border-radius: 3px;
 }
 .btn-learn-more {
+  padding: 12px 71px;
+
   background-color: #fb565a;
+}
+.btn-order-website,
+.btn-order-application,
+.btn-order-presentation {
+  padding: 12px 40px;
+}
+.btn-order-website {
+  background-color: #fb565a;
+}
+.btn-order-application {
+  background-color: #00ca74;
+}
+.btn-order-presentation {
+  background-color: #efc84a;
 }
 .learn-more-image {
   width: 350px;
 }
 .slider-block {
-  height: 320px;
-  margin-bottom: 40px;
+  height: 300px;
 }
 .slider {
   position: relative;
@@ -219,25 +268,24 @@ ul {
 }
 .slider-controls {
   position: absolute;
-  bottom: 115px;
-  left: 50%;
+  bottom: 113px;
+  left: 49%;
   z-index: 100;
 
   text-align: center;
 
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  -webkit-transform: translateX(-49%);
+          transform: translateX(-49%);
 }
 .slider-controls label {
   display: inline-block;
-  width: 13px;
-  height: 13px;
+  width: 10px;
+  height: 10px;
   margin: 0 3px;
 
-  background: #cccccc;
-  border: 4px solid white;
+  background: #ffffff;
+  border: 3px solid white;
   border-radius: 50%;
-  box-shadow: 0 0 2px rgba(0,0,0,0.8);
   cursor: pointer;
 
   transition: background-color 0.15s;
@@ -245,7 +293,7 @@ ul {
 #btn-1:checked ~ .slider-controls label[for="btn-1"],
 #btn-2:checked ~ .slider-controls label[for="btn-2"],
 #btn-3:checked ~ .slider-controls label[for="btn-3"] {
-  background-color: #666666;
+  background-color: #c1c1c1;
 }
 #btn-1:checked ~ .slider-inner .slider-slides {
   -webkit-transform: translate(0);
