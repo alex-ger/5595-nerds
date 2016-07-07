@@ -142,60 +142,6 @@ ul {
 .cart-block {
   margin-left: 49px;
 }
-
-.mini-catalog {
-  min-height: 425px;
-  padding-top: 80px;
-  padding-bottom: 88px;
-
-  border-bottom: 2px solid #eeeeee;
-}
-.mini-catalog-item {
-  width: 290px;
-  margin: 0;
-  padding: 0;
-}
-.mini-catalog-item:nth-child(2) {
-  padding-left: 26px;
-}
-.mini-catalog-item:nth-child(3) {
-  padding-left: 51px;
-}
-.mini-catalog-title h3 {
-  margin-top: 17px;
-  margin-bottom: 0;
-
-  font-size: 18px;
-  line-height: 30px;
-  text-transform: uppercase;
-}
-.mini-catalog-title p {
-  margin-bottom: 32px;
-
-  font-size: 15px;
-  line-height: 22px;
-}
-.about-studio-info {
-  width: 600px;
-}
-.about-studio-info h1 {
-  margin-top: 70px;
-  margin-bottom: 19px;
-
-  font-size: 36px;
-}
-.about-studio-info p{
-    margin-bottom: 44px;
-}
-.about-studio-info h3{
-    text-transform: uppercase;
-  font-size: 16px;
-  line-height: 22px;
-    margin-bottom: 22px;
-}
-.about-studio-work {
-  width: 270px;
-}
 .learn-more-action,
 .learn-more-image {
   float: left;
@@ -306,6 +252,101 @@ ul {
 #btn-3:checked ~ .slider-inner .slider-slides {
   -webkit-transform: translate(-1790px);
           transform: translate(-1790px);
+}
+.mini-catalog {
+  min-height: 425px;
+  padding-top: 80px;
+  padding-bottom: 88px;
+
+  border-bottom: 2px solid #eeeeee;
+}
+.mini-catalog-item {
+  width: 290px;
+  margin: 0;
+  padding: 0;
+}
+.mini-catalog-item:nth-child(2) {
+  padding-left: 26px;
+}
+.mini-catalog-item:nth-child(3) {
+  padding-left: 51px;
+}
+.mini-catalog-title h3 {
+  margin-top: 17px;
+  margin-bottom: 0;
+
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+.mini-catalog-title p {
+  margin-bottom: 32px;
+
+  font-size: 15px;
+  line-height: 22px;
+}
+.about-studio {
+  margin-bottom: 47px;
+  border-bottom: 2px solid #eeeeee;
+}
+.about-studio-info {
+  width: 635px;
+}
+.about-studio-info li,
+.about-studio-work li {
+  margin-bottom: 22px;
+}
+.about-studio-info h1 {
+  margin-top: 70px;
+  margin-bottom: 19px;
+
+  font-size: 36px;
+}
+.about-studio-info p {
+  margin-bottom: 44px;
+}
+.about-studio-info h3 {
+  margin-bottom: 22px;
+
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+.about-studio-work {
+  width: 240px;
+}
+.about-studio-logo {
+  margin-bottom: 21px;
+  margin-left: 34px;
+}
+.since-year {
+  margin-bottom: 55px;
+  margin-left: 80px;
+}
+.since-year span {
+  text-transform: uppercase;
+}
+.clients {
+    margin-top: 48px;
+  padding-bottom: 32px;
+
+  border-bottom: 2px solid #eeeeee;
+}
+.clients img {
+  display: inline-block;
+
+  vertical-align: middle;
+}
+.glukhanko-img {
+  margin-bottom: 9px;
+  margin-left: 12px;
+}
+.htmlacademy-img {
+  margin-bottom: 4px;
+  margin-left: 117px;
+}
+.borodinski-img {
+  margin-left: 119px;
 }
 .image-mockup {
   position: relative;
