@@ -290,11 +290,17 @@ ul {
   border-bottom: 2px solid #eeeeee;
 }
 .about-studio-info {
-  width: 635px;
+  width: 570px;
 }
 .about-studio-info li,
 .about-studio-work li {
   margin-bottom: 22px;
+}
+.about-studio-info li:before,
+.about-studio-work li:before{
+  content: url("../img/dash.png");
+  margin-right: 10px;
+  color: red;
 }
 .about-studio-info h1 {
   margin-top: 70px;
@@ -313,18 +319,33 @@ ul {
   text-transform: uppercase;
 }
 .about-studio-work {
-  width: 240px;
+  /*width: 300px;*/
 }
 .about-studio-logo {
   margin-bottom: 21px;
-  margin-left: 34px;
+  margin-left: 99px;
 }
 .since-year {
   margin-bottom: 55px;
-  margin-left: 80px;
+  margin-left: 10px;
 }
 .since-year span {
   text-transform: uppercase;
+    margin-left: 57px;
+}
+.since-year span:before{
+  content: url("../img/divide.png");
+  margin-right: 11px;
+}
+.since-year span:after{
+  content: url("../img/divide.png");
+  margin-left: 11px;
+}
+.about-studio-work h3{
+  margin-left: 65px;
+}
+.about-studio-work ul{
+    margin-left: 67px;
 }
 .clients {
     margin-top: 48px;
