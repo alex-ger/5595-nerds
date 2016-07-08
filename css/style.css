@@ -81,6 +81,9 @@ h4 {
   line-height: 36px;
   color: #000000;
 }
+h1 {
+  font-size: 36px;
+}
 a {
   color: #000000;
   text-decoration: none;
@@ -98,7 +101,11 @@ ul {
 .cart-block li,
 .mini-catalog-item,
 .about-studio-info,
-.about-studio-work {
+.about-studio-work,
+.slider-controls label,
+.clients img,
+.footer-social,
+.call-friendship {
   display: inline-block;
 }
 .container {
@@ -128,7 +135,7 @@ ul {
   height: 56px;
 }
 .main-navigation {
-  margin-left: 178px;
+  margin-left: 180px;
 }
 .main-navigation a {
   margin-right: 41px;
@@ -140,7 +147,12 @@ ul {
   text-transform: uppercase;
 }
 .cart-block {
-  margin-left: 49px;
+  margin-left: 22px;
+}
+.icon-basket{
+    font-size: 16px;
+  color: #a6a6a6;
+  padding-right: 4px;
 }
 .learn-more-action,
 .learn-more-image {
@@ -154,7 +166,6 @@ ul {
   margin-bottom: 18px;
 
   font-weight: 500;
-  font-size: 36px;
 }
 .learn-more-action p {
   margin-bottom: 34px;
@@ -187,8 +198,8 @@ ul {
 .btn-order-presentation {
   background-color: #efc84a;
 }
-.btn-contact-us{
-    padding: 12px 54px;
+.btn-contact-us {
+  padding: 12px 54px;
 
   background-color: #fb565a;
 }
@@ -229,7 +240,6 @@ ul {
           transform: translateX(-49%);
 }
 .slider-controls label {
-  display: inline-block;
   width: 10px;
   height: 10px;
   margin: 0 3px;
@@ -313,8 +323,6 @@ ul {
 .about-studio-info h1 {
   margin-top: 70px;
   margin-bottom: 19px;
-
-  font-size: 36px;
 }
 .about-studio-info p {
   margin-bottom: 44px;
@@ -366,8 +374,6 @@ ul {
   border-bottom: 2px solid #eeeeee;
 }
 .clients img {
-  display: inline-block;
-
   vertical-align: middle;
 }
 .glukhanko-img {
@@ -395,7 +401,7 @@ ul {
 }
 .contact-us {
   position: absolute;
-   top: 120px;
+  top: 120px;
   bottom: 0;
   left: 137px;
 
@@ -406,14 +412,55 @@ ul {
 
   background: #ffffff;
 }
-.contact-us h3{
-    margin: 0;
+.contact-us h3 {
+  margin: 0;
+
+  font-size: 16px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+.contact-us p {
+  margin-bottom: 33px;
+
+  font-size: 16px;
+  line-height: 20px;
 }
 .iframe-map {
   width: 100%;
   height: 415px;
 
   border: 0;
+}
+.main-footer {
+  padding-top: 50px;
+  padding-bottom: 56px;
+}
+.footer-social {
+  min-width: 250px;
+  padding-top: 16px;
+
+  font-size: 0;
+  vertical-align: middle;
+}
+.call-friendship {
+  min-width: 550px;
+  padding-left: 45px;
+
+  vertical-align: middle;
+}
+.call-friendship h1 {
+  margin-bottom: -5px;
+}
+.social {
+  margin-right: 28px;
+  padding: 16px 15px;
+
+  font-size: 23px;
+  line-height: 16px;
+  color: #ffffff;
+
+  background: #e1e1e1;
+  border-radius: 30px;
 }
 .image-mockup {
   position: relative;
