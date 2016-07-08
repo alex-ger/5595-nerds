@@ -105,7 +105,15 @@ ul {
 .slider-controls label,
 .clients img,
 .footer-social,
-.call-friendship {
+.call-friendship,
+.filtres,
+.shop-mockups,
+.shop-sort-type,
+.shop-sort-title,
+.shop-sort-type ul,
+.shop-sort-type li,
+.shop-sort-rating,
+.features-item {
   display: inline-block;
 }
 .container {
@@ -122,7 +130,8 @@ ul {
   background-color: #eeeeee;
 }
 .main-header,
-.slider-block {
+.slider-block,
+.welcome-shop {
   width: 880px;
   margin: 0 auto;
 }
@@ -149,10 +158,11 @@ ul {
 .cart-block {
   margin-left: 22px;
 }
-.icon-basket{
-    font-size: 16px;
-  color: #a6a6a6;
+.icon-basket {
   padding-right: 4px;
+
+  font-size: 16px;
+  color: #a6a6a6;
 }
 .learn-more-action,
 .learn-more-image {
@@ -461,6 +471,33 @@ ul {
 
   background: #e1e1e1;
   border-radius: 30px;
+}
+.filtres{
+    /*padding-top: 59px;*/
+    width: 280px;
+  vertical-align: top;
+}
+.shop-mockups{
+    display: inline-block;
+  width: 550px;
+  vertical-align: top;
+}
+.filtres-form h2{
+    text-transform: uppercase;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 0;
+}
+.welcome-shop h1 {
+  margin: 0;
+  margin-top: 11px;
+  margin-left: -6px;
+  padding-bottom: 84px;
+
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
 }
 .image-mockup {
   position: relative;

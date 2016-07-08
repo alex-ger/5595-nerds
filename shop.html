@@ -9,11 +9,11 @@
     <!-- <link rel="stylesheet" href="css/style.min.css"> -->
   </head>
   <body>
-    <div class="container">
+    <div class="wrapper-header-slider">
       <header class="main-header">
         <div class="index-logo">
           <a href="index.html">
-            <img src="img/logo.png" width="139" height="56" alt="Нёрдс">
+            <img src="img/logo.png" width="139" height="56" alt="Нёрдс" title="nerds">
           </a>
         </div>
         <nav class="main-navigation">
@@ -28,17 +28,22 @@
               <a href="shop.html">Магазин</a>
             </li>
             <li>
-              <a href="hotels.html">Контакты</a>
+              <a href="#">Контакты</a>
             </li>
           </ul>
         </nav>
         <div class="cart-block">
-          <a class="cart" href="#">Корзина</a>
+          <a class="cart" href="#">
+            <span class="icon-basket"></span>
+            Корзина
+          </a>
         </div>
       </header>
       <section class="welcome-shop">
-        <h1>Добро пожаловать в магазин <br> готовых макетов</h1>
+        <h1>Добро пожаловать в магазин<br> готовых макетов</h1>
       </section>
+    </div>
+    <div class="container">
       <aside class="filtres">
         <form class="filtres-form" action="https://echo.htmlacademy.ru" method="post">
           <h2>Стоимость:</h2>
@@ -158,17 +163,21 @@
           </ul>
         </div>
       </section>
-      <section class="contacts-map">
-        <div class="contact-us">
-          <h3>NЁRDS design studio</h3>
-          <p>191186, Санкт-Петербург, <br> ул. Б. Конюшенная, д. 19/8 <br><br> тел. +7 (812) 275-75-75</p>
-        </div>
-      </section>
+    </div>
+    <section class="contacts-map">
+      <div class="contact-us">
+        <h3>NЁRDS design studio</h3>
+        <p>191186, Санкт-Петербург, <br> ул. Б. Конюшенная, д. 19/8 <br><br> тел. +7 (812) 275-75-75</p>
+        <a class="btn btn-contact-us" href="#">Напишите нам</a>
+      </div>
+      <iframe class="iframe-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1680.5737629548605!2d30.318895523483082!3d59.93960435112352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1467892172376" allowfullscreen></iframe>
+    </section>
+    <div class="container">
       <footer class="main-footer">
         <div class="footer-social">
-          <a class="social social-vk" href="#" target="_blank" title="Вконтакте">В</a>
-          <a class="social social-facebook" href="#" target="_blank" title="Фейсбук">Ф</a>
-          <a class="social social-instagram" href="#" target="_blank" title="Инстаграм">И</a>
+          <a class="social icon-vk" href="#" target="_blank" title="Вконтакте"></a>
+          <a class="social icon-facebook" href="#" target="_blank" title="Фейсбук"></a>
+          <a class="social icon-instagramm" href="#" target="_blank" title="Инстаграм"></a>
         </div>
         <div class="call-friendship">
           <h1>Давайте дружить, это выгодно!</h1>
