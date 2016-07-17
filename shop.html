@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <!-- <link rel="stylesheet" href="css/style.min.css"> -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
   </head>
   <body>
     <div class="wrapper-header-slider">
@@ -43,38 +44,85 @@
         <h1>Добро пожаловать в магазин<br> готовых макетов</h1>
       </section>
     </div>
-    <div class="container">
+    <div class="container container-shop">
       <aside class="filtres">
         <form class="filtres-form" action="https://echo.htmlacademy.ru" method="post">
-          <h2>Стоимость:</h2>
-          <div class="range">
-            <input min="0" max="25000" type="range">
+          <div class="cost">
+            <h2>Cтоимость:</h2>
+            <div class="range-block-wrapper">
+              <div class="range-block">
+                <div class="scale">
+                  <div class="bar"></div>
+                </div>
+                <div class="range-toggle range-toggle-min"></div>
+                <div class="range-toggle range-toggle-max"></div>
+              </div>
+            </div>
+            <div class="range-count">
+              <div class="range-min">
+                <label class="min-price">от
+                <input type="text" name="min-range" id="min-range" value="0"></label>
+              </div>
+              <div class="range-max">
+                <label class="max-price">до
+                <input type="text" name="max-range" id="max-range" value="3000"></label>
+              </div>
+            </div>
           </div>
-          <div class="range-count">
-            <div class="range-zero">от 0</div>
-            <div class="range-max">до 15000</div>
-          </div>
+
           <div class="choose-grid">
             <h2>Сетка:</h2>
-            <input type="radio" checked="checked" name="choose-grid" id="adaptive">
-            <label for="adaptive">Адаптивная</label>
-            <input type="radio" name="choose-grid" id="fixed">
-            <label for="fixed">Фиксированная</label>
-            <input type="radio" name="choose-grid" id="flexible">
-            <label for="flexible">Резиновая</label>
+            <div class="radio">
+              <input type="radio" checked="checked" name="choose-grid" id="adaptive">
+              <label class="icon-circle" for="adaptive">
+                <span>Адаптивная</span>
+              </label>
+            </div>
+            <div class="radio">
+              <input type="radio" name="choose-grid" id="fixed">
+              <label class="icon-circle" for="fixed">
+                <span>Фиксированная</span>
+              </label>
+            </div>
+            <div class="radio">
+              <input type="radio" name="choose-grid" id="flexible">
+              <label class="icon-circle" for="flexible">
+                <span>Резиновая</span>
+              </label>
+            </div>
           </div>
           <div class="features">
             <h2>Особенности:</h2>
-            <input type="checkbox" name="slider" id="slider" checked>
-            <label for="slider">Слайдер</label>
-            <input type="checkbox" name="block-advantage" id="block-advantage">
-            <label for="block-advantage">Блок преимуществ</label>
-            <input type="checkbox" name="news" id="news">
-            <label for="news">Новости</label>
-            <input type="checkbox" name="gallery" id="gallery">
-            <label for="gallery">Галерея</label>
-            <input type="checkbox" name="cart" id="cart">
-            <label for="cart">Корзина</label>
+            <div class="checkbox">
+              <input type="checkbox" name="slider" id="slider" checked>
+              <label class="icon-check" for="slider">
+                <span>Слайдер</span>
+              </label>
+            </div>
+            <div class="checkbox">
+              <input type="checkbox" name="block-advantage" id="block-advantage">
+              <label class="icon-check" for="block-advantage">
+                <span>Блок преимуществ</span>
+              </label>
+            </div>
+            <div class="checkbox">
+              <input type="checkbox" name="news" id="news" checked>
+              <label class="icon-check" for="news">
+                <span>Новости</span>
+              </label>
+            </div>
+            <div class="checkbox">
+              <input type="checkbox" name="gallery" id="gallery">
+              <label class="icon-check" for="gallery">
+                <span>Галерея</span>
+              </label>
+            </div>
+            <div class="checkbox">
+              <input type="checkbox" name="cart" id="cart">
+              <label class="icon-check" for="cart">
+                <span>Корзина</span>
+              </label>
+            </div>
           </div>
           <button class="btn btn-show" type="submit">Показать</button>
         </form>

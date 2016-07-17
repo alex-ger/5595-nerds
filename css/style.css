@@ -124,6 +124,9 @@ ul {
 
   background-color: #ffffff;
 }
+.container-shop {
+  padding-top: 70px;
+}
 .wrapper-header-slider {
   position: relative;
 
@@ -187,7 +190,10 @@ ul {
   color: #ffffff;
   text-transform: uppercase;
 
+  border: none;
   border-radius: 3px;
+  outline: none;
+  cursor: pointer;
 }
 .btn-learn-more {
   padding: 12px 71px;
@@ -212,6 +218,14 @@ ul {
   padding: 12px 54px;
 
   background-color: #fb565a;
+}
+.btn-show {
+  margin-top: 40px;
+  padding: 10px 47px;
+
+  color: #000000;
+
+  background-color: #f1f1f1;
 }
 .learn-more-image {
   width: 350px;
@@ -472,22 +486,6 @@ ul {
   background: #e1e1e1;
   border-radius: 30px;
 }
-.filtres{
-    /*padding-top: 59px;*/
-    width: 280px;
-  vertical-align: top;
-}
-.shop-mockups{
-    display: inline-block;
-  width: 550px;
-  vertical-align: top;
-}
-.filtres-form h2{
-    text-transform: uppercase;
-  font-size: 18px;
-  line-height: 30px;
-  margin: 0;
-}
 .welcome-shop h1 {
   margin: 0;
   margin-top: 11px;
@@ -498,6 +496,170 @@ ul {
   line-height: 48px;
   text-align: center;
   text-transform: uppercase;
+}
+.filtres {
+  width: 280px;
+
+  vertical-align: top;
+}
+.cost h2 {
+  margin: 0;
+
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+.range-count {
+  width: 240px;
+  margin-bottom: 20px;
+}
+.range-count input[type="text"] {
+  display: inline-block;
+  width: 80px;
+  padding: 9px 0;
+
+  text-align: left;
+  text-align: center;
+  color: #283136;
+
+  background: rgba(255, 255, 255, 0);
+  background-color: #f1f1f1;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+}
+.range-min,
+.range-max {
+  display: inline-block;
+
+  line-height: 21px;
+  vertical-align: middle;
+}
+.range-min {
+  box-sizing: border-box;
+}
+.range-min label,
+.range-max label {
+  display: inline-block;
+
+  text-align: right;
+}
+.range-max label {
+  margin-left: 25px;
+}
+.range-block-wrapper {
+  width: 240px;
+  min-height: 80px;
+  padding-top: 40px;
+  padding-left: 20px;
+
+  text-align: center;
+
+  background-color: #f1f1f1;
+  border-radius: 5px;
+}
+.range-block {
+  position: relative;
+
+  width: 195px;
+  margin-bottom: 20px;
+
+  background-color: #f1f1f1;
+}
+.range-block .scale {
+  height: 2px;
+
+  background: #d7dcde;
+}
+.range-block .bar {
+  width: 80%;
+  height: 2px;
+
+  background: #00ca74;
+}
+.range-toggle {
+  position: absolute;
+  top: -9px;
+
+  width: 4px;
+  height: 4px;
+
+  background: #ababab;
+  border: 8px solid #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
+  cursor: pointer;
+}
+.range-toggle:hover {
+  background: #1c4f80;
+}
+.range-toggle-min {
+  left: 0;
+}
+.range-toggle-max {
+  left: 80%;
+}
+.range-count {
+  position: relative;
+}
+input[type="range"] {
+  width: 320px;
+}
+input[type="range"]:hover {
+  cursor: pointer;
+}
+.radio,
+.checkbox {
+  margin-bottom: 10px;
+}
+.features label {
+  display: inline-block;
+  margin-right: 15px;
+
+  vertical-align: middle;
+
+  cursor: pointer;
+}
+.choose-grid label:before,
+.features label:before {
+  margin-right: 10px;
+  margin-left: 0;
+
+  font-size: 26px;
+  vertical-align: middle;
+  text-align: left;
+  color: #d7dcde;
+}
+.choose-grid label:before {
+  content: "\25cb";
+}
+.features label:before {
+  content: "\2610";
+}
+input[type=radio],
+input[type=checkbox] {
+  display: none;
+}
+input[type="radio"] + label,
+input[type="checkbox"] + label {
+  line-height: 20px;
+}
+.filtres-form input[type=radio]:checked + label:before {
+  content: "\25cf";
+}
+.filtres-form input[type=checkbox]:checked + label:before {
+  content: "\2611";
+}
+.filtres-form input[type=radio]:disabled + label:before,
+.filtres-form input[type=checkbox]:disabled + label:before {
+  color: #6a6a6a;
+}
+
+.shop-mockups {
+  display: inline-block;
+  width: 550px;
+
+  vertical-align: top;
 }
 .image-mockup {
   position: relative;
