@@ -125,7 +125,7 @@ ul {
   background-color: #ffffff;
 }
 .container-shop {
-  padding-top: 70px;
+  padding-top: 75px;
 }
 .wrapper-header-slider {
   position: relative;
@@ -226,6 +226,12 @@ ul {
   color: #000000;
 
   background-color: #f1f1f1;
+}
+.btn-price{
+    background-color: #fb565a;
+  padding: 8px 35px;
+  font-size: 18px;
+  line-height: 8.6px;
 }
 .learn-more-image {
   width: 350px;
@@ -498,13 +504,19 @@ ul {
   text-transform: uppercase;
 }
 .filtres {
-  width: 280px;
+  width: 30%;
 
   vertical-align: top;
 }
 .cost h2 {
   margin: 0;
 
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+.choose-grid h2,
+.features h2{
   font-size: 18px;
   line-height: 30px;
   text-transform: uppercase;
@@ -657,15 +669,45 @@ input[type="checkbox"] + label {
 
 .shop-mockups {
   display: inline-block;
-  width: 550px;
+  width: 69%;
 
   vertical-align: top;
+}
+.shop-sort {
+  margin-top: -2px;
+  margin-bottom: 22px;
+  margin-left: 51px;
+
+  font-size: 12px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+.shop-sort-type li a {
+  margin-right: 42px;
+
+  color: #b2b2b2;
+}
+.shop-sort-title {
+  margin-right: 38px;
+}
+.icon-up-dir,
+.icon-down-dir {
+  font-size: 23px;
+  line-height: 20px;
+}
+.icon-up-dir::before,
+.icon-down-dir::before {
+  width: 11px;
+  margin: 0;
+}
+.shop-sort-rating{
+  margin-left: 56px;
 }
 .image-mockup {
   position: relative;
 
   width: 240px;
-  height: 240px;
+  height: 270px;
 
   background-repeat: no-repeat;
   background-size: 100%;
@@ -692,6 +734,11 @@ input[type="checkbox"] + label {
 }
 .features-item {
   width: 240px;
+  margin-bottom: 80px;
+}
+.features-item:nth-child(even) {
+  margin-right: 70px;
+  margin-left: 53px;
 }
 .features-item-hover {
   position: absolute;
@@ -701,9 +748,27 @@ input[type="checkbox"] + label {
   display: none;
   width: 200px;
   height: 200px;
-
+    text-align: center;
   background-color: #ffffff;
+}
+.features-item-hover h1{
+  margin: 0;
+  padding-top: 26px;
+  font-size: 18px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+.features-item-hover p{
+    font-size: 14px;
+  line-height: 18px;
+  margin: 0;
+  margin-top: 6px;
+    margin-bottom: 37px;
+  margin-left: 15px;
 }
 .features-item:hover .features-item-hover {
   display: block;
+  transition: -webkit-transform 0.3s ease;
+  transition:         transform 0.3s ease;
+
 }
