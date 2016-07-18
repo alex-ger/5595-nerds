@@ -26,7 +26,7 @@
               <a href="#">Клиенты</a>
             </li>
             <li>
-              <a href="shop.html">Магазин</a>
+              <a class="main-navigation-active" href="shop.html">Магазин</a>
             </li>
             <li>
               <a href="#">Контакты</a>
@@ -85,7 +85,7 @@
               </label>
             </div>
             <div class="radio">
-              <input type="radio" name="choose-grid" id="flexible">
+              <input type="radio" name="choose-grid" id="flexible" disabled>
               <label class="icon-circle" for="flexible">
                 <span>Резиновая</span>
               </label>
@@ -112,7 +112,7 @@
               </label>
             </div>
             <div class="checkbox">
-              <input type="checkbox" name="gallery" id="gallery">
+              <input type="checkbox" name="gallery" id="gallery" disabled>
               <label class="icon-check" for="gallery">
                 <span>Галерея</span>
               </label>
@@ -144,7 +144,7 @@
             </ul>
           </div>
           <div class="shop-sort-rating">
-            <a class="icon-down-dir" href="#"></a>
+            <a class="icon-down-dir icon-down-dir-active" href="#"></a>
             <a class="icon-up-dir" href="#"></a>
           </div>
         </div>
@@ -204,7 +204,7 @@
         </article>
         <div class="pagination">
           <ul>
-            <li><a class="btn btn-pagination" href="#">1</a></li>
+            <li><a class="btn btn-pagination btn-pagination-active" href="#">1</a></li>
             <li><a class="btn btn-pagination" href="#">2</a></li>
             <li><a class="btn btn-pagination" href="#">3</a></li>
             <li><a class="btn btn-pagination" href="#">Следующая</a></li>
@@ -212,6 +212,23 @@
         </div>
       </section>
     </div>
+   <section class="contact-us-popup">
+      <form class="popup-form" action="https://echo.htmlacademy.ru" method="post">
+        <div class="popup-form-item input-date">
+          <label class="date-check" for="date-check">Ваше имя:</label>
+          <input type="text" name="datecheck" id="date-check" placeholder="Представьтесь, пожалуйста">
+        </div>
+        <div class="map-form-item input-date">
+          <label class="date-check-out" for="date-check-out">Ваш e-mail:</label>
+          <input type="text" name="datecheckout" id="date-check-out" placeholder="Для отправки ответа">
+        </div>
+        <div class="map-form-item">
+          <label class="text-letter" for="text-letter">Текст письма:</label>
+          <textarea name="textletter" id="text-letter" placeholder="В свободной форме" cols="40" rows="3"></textarea>
+        </div>
+        <button class="btn btn-find" type="submit">Отправить</button>
+      </form>
+    </section>
     <section class="contacts-map">
       <div class="contact-us">
         <h3>NЁRDS design studio</h3>
