@@ -1,5 +1,5 @@
-      var link = document.querySelector(".btn-search-hotels");
-      var searchForm = document.querySelector(".map-form");
+      var link = document.querySelector(".btn-contact-us");
+      var searchForm = document.querySelector(".popup-form");
 
       link.addEventListener("click", function(event) {
           event.preventDefault();
