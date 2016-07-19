@@ -126,6 +126,7 @@ ul {
 }
 .container-shop {
   padding-top: 75px;
+    font-size: 0;
 }
 .wrapper-header-slider {
   position: relative;
@@ -176,7 +177,7 @@ ul {
   border-bottom: 2px solid #fb565a;
 }
 .cart-block {
-  margin-left: 22px;
+  margin-left: 21px;
 }
 .icon-basket {
   padding-right: 4px;
@@ -573,8 +574,12 @@ ul {
 
   vertical-align: top;
 }
+.cost{
+    margin-bottom: 45px;
+}
 .cost h2 {
   margin: 0;
+    margin-bottom: 12px;
 
   font-size: 18px;
   line-height: 30px;
@@ -594,8 +599,6 @@ ul {
   display: inline-block;
   width: 80px;
   padding: 9px 0;
-
-  text-align: left;
   text-align: center;
   color: #283136;
 
@@ -620,13 +623,16 @@ ul {
   display: inline-block;
 
   text-align: right;
+    font-size: 16px;
+    text-transform: uppercase;
 }
 .range-max label {
-  margin-left: 25px;
+  margin-left: 18px;
 }
 .range-block-wrapper {
   width: 240px;
   min-height: 80px;
+  margin-bottom: 14px;
   padding-top: 40px;
   padding-left: 20px;
 
@@ -639,7 +645,6 @@ ul {
   position: relative;
 
   width: 195px;
-  margin-bottom: 20px;
 
   background-color: #f1f1f1;
 }
@@ -685,6 +690,12 @@ input[type="range"] {
 input[type="range"]:hover {
   cursor: pointer;
 }
+.min-price input{
+    margin-left: 6px;
+}
+.max-price input{
+    margin-left: 5px;
+}
 .radio,
 .checkbox {
   margin-bottom: 10px;
@@ -697,9 +708,12 @@ input[type="range"]:hover {
 
   cursor: pointer;
 }
+.choose-grid{
+    margin-bottom: 42px;
+}
 .choose-grid label:before,
 .features label:before {
-  margin-right: 10px;
+  margin-right: 0;
   margin-left: 0;
 
   font-size: 26px;
@@ -720,18 +734,19 @@ input[type=checkbox] {
 input[type="radio"] + label,
 input[type="checkbox"] + label {
   line-height: 20px;
+    font-size: 16px;
 }
 input[type="radio"] + label span:hover,
 input[type="checkbox"] + label span:hover {
   color: #000000;
 }
+input[type=radio]:hover + label:before,
+input[type=checkbox]:hover + label:before {
+  color: #b5b5b5;
+}
 input[type="radio"]:disabled + label span:hover,
 input[type="checkbox"]:disabled + label span:hover {
   color: #e9e9e9;
-}
-input[type="radio"] + label:hover.choose-grid label:before,
-input[type="checkbox"] + label:hover.features label:before {
-  color: red;
 }
 input[type=radio]:checked + label:before {
   content: "\25cf";
@@ -748,14 +763,13 @@ input[type=checkbox]:disabled + label {
 
 .shop-mockups {
   display: inline-block;
-  width: 69%;
-
+  width: 70%;
+    padding-left: 56px;
   vertical-align: top;
 }
 .shop-sort {
   margin-top: -2px;
-  margin-bottom: 22px;
-  margin-left: 51px;
+  margin-bottom: 20px;
 
   font-size: 12px;
   line-height: 18px;
@@ -763,7 +777,7 @@ input[type=checkbox]:disabled + label {
 }
 .shop-sort-type li a {
   margin-right: 42px;
-  padding-bottom: 3px;
+  padding-bottom: 2px;
 
   color: #b2b2b2;
 
@@ -813,6 +827,9 @@ input[type=checkbox]:disabled + label {
   border-top: 30px solid #f1f1f1;
   border-image: url("../img/catalog-image-border.png") 30 0 0 0;
 }
+.image-mockup:hover {
+  border-image: url("../img/catalog-image-border-hover.png") 30 0 0 0;
+}
 .image-mockup-aviator {
   background-image: url("../img/aviator.jpg");
 }
@@ -836,8 +853,7 @@ input[type=checkbox]:disabled + label {
   margin-bottom: 80px;
 }
 .features-item:nth-child(even) {
-  margin-right: 70px;
-  margin-left: 53px;
+  margin-right: 80px;
 }
 .features-item-hover {
   position: absolute;
@@ -877,11 +893,11 @@ input[type=checkbox]:disabled + label {
 }
 .pagination {
   margin-bottom: 80px;
-  margin-left: 63px;
+  margin-left: 57px;
 }
 .pagination li {
   display: inline-block;
-  margin-right: 5px;
+  margin-right: 11px;
 }
 .btn-pagination {
   display: inline-block;
@@ -891,6 +907,9 @@ input[type=checkbox]:disabled + label {
 
   background-color: #f1f1f1;
   border: 1px solid #f1f1f1;
+}
+.btn-pagination-next{
+    padding: 8px 30px;
 }
 .btn-pagination-active {
   display: inline-block;
@@ -908,24 +927,23 @@ input[type=checkbox]:disabled + label {
 }
 
 .popup-form-input {
-  position: relative;
-    width: 220px;
   display: inline-block;
+  width: 220px;
 }
-.input-email{
-  margin-left: 8px;
+.input-email {
+  margin-left: 16px;
 }
 .popup-form {
   position: absolute;
-  top: 280px;
+  top: 278px;
   bottom: 0;
-  left: 50%;
-  display: none;
+  left: 49.3%;
 
+  display: none;
   box-sizing: border-box;
   width: 630px;
   min-height: 415px;
-  padding: 56px 90px 50px 88px;
+  padding: 53px 0 50px 80px;
 
   background-color: #ffffff;
   box-shadow: 0 20px 40px 0 rgba(0, 1, 1, 0.75);
@@ -934,7 +952,7 @@ input[type=checkbox]:disabled + label {
 }
 .popup-form label {
   display: block;
-  margin-bottom: 11px;
+  margin-bottom: 10px;
 
   font-weight: bold;
   font-size: 16px;
@@ -942,7 +960,7 @@ input[type=checkbox]:disabled + label {
   color: #000000;
 }
 .popup-form-input {
-  margin-bottom: 23px;
+  margin-bottom: 19px;
 }
 .popup-form input[type=text],
 .popup-form input[type=email],
@@ -950,13 +968,13 @@ input[type=checkbox]:disabled + label {
   width: 220px;
   height: 26px;
   min-height: 38px;
+  padding: 12px 14px;
 }
 .popup-form input[type=text],
 .popup-form input[type=email],
 .popup-form input[type=tel],
 .popup-form textarea {
   display: block;
-  padding: 12px 14px;
 
   font-size: 12px;
   line-height: 18px;
@@ -967,11 +985,25 @@ input[type=checkbox]:disabled + label {
   border-radius: 3px;
   outline: none;
 }
+.popup-form input[type=text]:hover,
+.popup-form input[type=email]:hover,
+.popup-form input[type=tel]:hover,
+.popup-form textarea:hover {
+  border: 2px solid #a2a9ac;
+}
+.popup-form input[type=text]:focus,
+.popup-form input[type=email]:focus,
+.popup-form input[type=tel]:focus,
+.popup-form textarea:focus {
+  border: 2px solid #56bffb;
+}
 .popup-form textarea {
-  width: 100%;
-  min-height: 100px;
+  width: 460px;
+  min-height: 115px;
   margin-bottom: 48px;
-    resize: vertical;
+  padding: 8px 14px;
+
+  resize: vertical;
 }
 .btn-send {
   display: block;
