@@ -126,7 +126,8 @@ ul {
 }
 .container-shop {
   padding-top: 75px;
-    font-size: 0;
+
+  font-size: 0;
 }
 .wrapper-header-slider {
   position: relative;
@@ -205,8 +206,10 @@ ul {
   font-weight: 500;
   font-size: 12px;
   line-height: 18px;
+  text-align: center;
   color: #ffffff;
   text-transform: uppercase;
+  text-decoration: none;
 
   border: none;
   border-radius: 3px;
@@ -574,12 +577,12 @@ ul {
 
   vertical-align: top;
 }
-.cost{
-    margin-bottom: 45px;
+.cost {
+  margin-bottom: 45px;
 }
 .cost h2 {
   margin: 0;
-    margin-bottom: 12px;
+  margin-bottom: 12px;
 
   font-size: 18px;
   line-height: 30px;
@@ -599,6 +602,7 @@ ul {
   display: inline-block;
   width: 80px;
   padding: 9px 0;
+
   text-align: center;
   color: #283136;
 
@@ -622,9 +626,9 @@ ul {
 .range-max label {
   display: inline-block;
 
+  font-size: 16px;
   text-align: right;
-    font-size: 16px;
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 .range-max label {
   margin-left: 18px;
@@ -635,8 +639,6 @@ ul {
   margin-bottom: 14px;
   padding-top: 40px;
   padding-left: 20px;
-
-  text-align: center;
 
   background-color: #f1f1f1;
   border-radius: 5px;
@@ -662,24 +664,26 @@ ul {
 .range-toggle {
   position: absolute;
   top: -9px;
+  left: 0;
 
+  box-sizing: content-box;
   width: 4px;
   height: 4px;
 
   background: #ababab;
   border: 8px solid #ffffff;
   border-radius: 50%;
-  box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
+  box-shadow: 0 2px 1px 0 #cfcfcf;
   cursor: pointer;
 }
 .range-toggle:hover {
   background: #1c4f80;
 }
 .range-toggle-min {
-  left: 0;
+  left: -1px;
 }
 .range-toggle-max {
-  left: 80%;
+  left: 72%;
 }
 .range-count {
   position: relative;
@@ -690,11 +694,11 @@ input[type="range"] {
 input[type="range"]:hover {
   cursor: pointer;
 }
-.min-price input{
-    margin-left: 6px;
+.min-price input {
+  margin-left: 6px;
 }
-.max-price input{
-    margin-left: 5px;
+.max-price input {
+  margin-left: 5px;
 }
 .radio,
 .checkbox {
@@ -708,8 +712,8 @@ input[type="range"]:hover {
 
   cursor: pointer;
 }
-.choose-grid{
-    margin-bottom: 42px;
+.choose-grid {
+  margin-bottom: 42px;
 }
 .choose-grid label:before,
 .features label:before {
@@ -733,8 +737,8 @@ input[type=checkbox] {
 }
 input[type="radio"] + label,
 input[type="checkbox"] + label {
+  font-size: 16px;
   line-height: 20px;
-    font-size: 16px;
 }
 input[type="radio"] + label span:hover,
 input[type="checkbox"] + label span:hover {
@@ -764,7 +768,8 @@ input[type=checkbox]:disabled + label {
 .shop-mockups {
   display: inline-block;
   width: 70%;
-    padding-left: 56px;
+  padding-left: 56px;
+
   vertical-align: top;
 }
 .shop-sort {
@@ -850,7 +855,7 @@ input[type=checkbox]:disabled + label {
 }
 .features-item {
   width: 240px;
-  margin-bottom: 80px;
+  margin-bottom: 70px;
 }
 .features-item:nth-child(even) {
   margin-right: 80px;
@@ -893,7 +898,7 @@ input[type=checkbox]:disabled + label {
 }
 .pagination {
   margin-bottom: 80px;
-  margin-left: 57px;
+  margin-left: 1px;
 }
 .pagination li {
   display: inline-block;
@@ -908,8 +913,8 @@ input[type=checkbox]:disabled + label {
   background-color: #f1f1f1;
   border: 1px solid #f1f1f1;
 }
-.btn-pagination-next{
-    padding: 8px 30px;
+.btn-pagination-next {
+  padding: 8px 30px;
 }
 .btn-pagination-active {
   display: inline-block;
@@ -938,8 +943,8 @@ input[type=checkbox]:disabled + label {
   top: 278px;
   bottom: 0;
   left: 49.3%;
-
   display: none;
+
   box-sizing: border-box;
   width: 630px;
   min-height: 415px;
@@ -949,6 +954,27 @@ input[type=checkbox]:disabled + label {
   box-shadow: 0 20px 40px 0 rgba(0, 1, 1, 0.75);
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
+}
+.btn-popup-close {
+  position: absolute;
+  top: 5px;
+  left: 583px;
+
+  width: 21px;
+  height: 21px;
+  padding: 20px;
+
+  font-weight: bold;
+  font-size: 21px;
+  text-align: center;
+  color: #ffffff;
+
+  background-color: #fb565a;
+  background-image: url(../img/popup-close.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  border-radius: 50%;
+  cursor: pointer;
 }
 .popup-form label {
   display: block;
