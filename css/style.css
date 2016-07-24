@@ -1180,7 +1180,7 @@ input[type=checkbox]:disabled + label {
             transform: translate(-50%, 10px);
   }
   100% {
-    -webkit-transform: translate(-50%, -800px);
-            transform: translate(-50%, -800px);
+    -webkit-transform: translate(-50%, -1800px);
+            transform: translate(-50%, -1800px);
   }
 }
